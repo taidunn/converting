@@ -39,5 +39,6 @@ public class Converting
 
 		String intToString = Integer.toString(myInteger);
 		System.out.println(intToString);
+    //This will allow the Integer to be changed to a string.
 	}
 }
