@@ -40,5 +40,20 @@ public class Converting
 		String intToString = Integer.toString(myInteger);
 		System.out.println(intToString);
     //This will allow the Integer to be changed to a string.
+    String longToString = Long.toString(myLong);
+    System.out.println(longToString);
+    //This will change the "long" to a string.
+    String floatToString = Float.toString(myFloat);
+    System.out.println(floatToString);
+    //This will change the "float" selected to a string.
+    //This will also keep the decimals and will not reduce it to a simple number.
+    String doubleToString = Double.toString(myDouble);
+    System.out.println(doubleToString);
+    //This will change the selected "double" to a string.
+    //This will also keep the decimals and will not reduce it to a simple number.
+    String byteToString = Byte.toString(myByte);
+    System.out.println(byteToString);
+    String booleanToSTring = boolean.toString(myBoolean);
+    System.out.println(booleanToSTring);
 	}
 }
