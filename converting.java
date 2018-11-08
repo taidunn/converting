@@ -1,4 +1,4 @@
-public class PrimitiveTypes
+public class Converting
 {
 	public static void main(String[] args)
 	{
@@ -36,5 +36,8 @@ public class PrimitiveTypes
 		//Should print 70.84
 		System.out.println(myLong - (myInteger * 4));
 		//Should print 9638998
+
+		String intToString = Integer.toString(myInteger);
+		System.out.println(intToString);
 	}
 }
