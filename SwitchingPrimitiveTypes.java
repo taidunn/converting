@@ -28,13 +28,18 @@ public class PrimitiveTypes
 		boolean myBoolean = false;
 		//Can have a value of a lowercase "true" or "false".
 
-		System.out.println ("The answer is " + myBoolean);
-		//Should print "The answer is false."
-		System.out.println(myShort);
-		//Should print -30,392
-		System.out.println((myFloat * 6) - myByte);
-		//Should print 70.84
-		System.out.println(myLong - (myInteger * 4));
-		//Should print 9638998
+    int doubleToInt = (int) myDouble;
+    System.out.println(doubleToInt);
+    /*Should return with a "33" it will remove all the decimals because
+    *integers dont have any decimals.
+    */
+    short bytetoShort = (short) myByte;
+    System.out.println(bytetoShort);
+    //Should return -28
+
+    //For the rest use (long) (float) (byte) (double)
+    /*When certain ones are changed to non-decimal PrimitiveTypes then
+    *anything after thedecmal will be removed
+    */
 	}
 }
